@@ -4,9 +4,9 @@ class Class01{
 	double pi = 3.14;
 	double radius;
 		void setCal_area(){
-			System.out.println("半徑 = 10");
+			System.out.print("半徑 = 10");
 			System.out.println("球形體積 = " + (4 / 3)* pi * 1000);
-			System.out.println("長 = 4,寬 = 5,高 = 6");
+			System.out.print("長 = 4,寬 = 5,高 = 6");
 			System.out.println("立方體表面積 = " + (4 * 5 * 2) + (6 * 5 * 2) + (6 * 4 * 2));
 	}
 }
